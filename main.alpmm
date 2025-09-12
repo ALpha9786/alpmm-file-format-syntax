@@ -1,0 +1,54 @@
+import text
+import font
+import app form system
+
+app.title[Alp-- Ultimate Demo]
+app.size[700x600]
+
+# ===== Welcome Text =====
+text.[Welcome to Alp-- App!]
+text.style[font-size:32px;color:#1a73e8;font-family:Verdana]
+
+# ===== Subtitle =====
+text.[Experience all widgets with style]
+text.style[font-size:18px;color:#555555;font-family:Arial]
+
+# ===== Input Field =====
+input.[Type something here]
+input.style[font-size:16px;color:#333333;font-family:Courier New;background:#f0f0f0]
+
+# ===== Buttons =====
+button.text[Click Me]
+button.style[background:#ff5722;color:#ffffff;font-size:18px;font-family:Tahoma]
+
+button.text[Another Button]
+button.style[background:#4caf50;color:#ffffff;font-size:16px;font-family:Verdana]
+
+# ===== Checkbox =====
+checkbox.Option 1
+checkbox.Option 2
+
+# ===== Dropdown =====
+dropdown.Option1,Option2,Option3,Option4
+
+# ===== Slider =====
+slider.100
+
+# ===== Tabview =====
+tabview.Home,Settings,Profile
+
+# ===== Button Event =====
+onclick.button;alert[You clicked the first button!]
+
+# ===== Another Text =====
+text.[Enjoy styling your Alp-- app!]
+text.style[font-size:20px;color:#e91e63;font-family:Georgia]
+
+# ===== Image Example (replace with valid path) =====
+image.[example.png]
+
+# ===== File Dialog =====
+filedialog.Open File
+
+# ===== Extra Slider with Style =====
+slider.200
